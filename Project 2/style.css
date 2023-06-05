@@ -1,0 +1,38 @@
+.main {
+    margin: auto;
+    border: 2px solid #16d6d6;
+    width: 216px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    margin: 2px;
+    padding: 8px;
+    width: 30px;
+    border: solid black 2px;
+    border-radius: 9px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #ffa703;
+}
+.reset button {
+    width: 70px;
+    margin-top: 15px;
+    padding: 4px;
+}
+.button:active {
+    background-color: #00ff00;
+}
+.input input {
+    margin-top: 5px;
+    border: solid black 2px;
+    border-radius: 10px;
+    height: 20px;
+    width: 142px;
+    font-size: 20px;
+    padding: 6px;
+    text-align: center;
+}
