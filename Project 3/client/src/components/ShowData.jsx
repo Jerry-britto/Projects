@@ -28,8 +28,9 @@ function ShowData() {
         <input
           type="text"
           name=""
+          placeholder="Enter id"
           id="val"
-          className="bg-gray-200 rounded text-black text-center border-black  "
+          className="bg-gray-200 rounded text-black text-center border-black outline-blue-100"
         />
         <button
           onClick={display}
