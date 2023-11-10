@@ -1,6 +1,6 @@
 Ecommerce App
 
-Amazon website – A basic Amazon clone using MERN stack
+Amazon website ï¿½ A basic Amazon clone using MERN stack
 
 Description:
 A simple Amazon web app which is made using MERN stack. I have not included many products but included few of them which is being generated dynamically from the server. Apart from that it involves authentication and authorization and has hashing involved so that the user credentials are secured in the database while he is creating his account.
@@ -24,7 +24,7 @@ cd project 4
 npm install
 
 #add an env file of your own mentioning a database and two collections
-Database name – Amazon
+Database name ï¿½ Amazon
 Collections:
 1. products
 2. User
