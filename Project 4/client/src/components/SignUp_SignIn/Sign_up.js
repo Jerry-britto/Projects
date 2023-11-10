@@ -53,16 +53,21 @@ const Sign_up = () => {
       })
       return;
     }
-
-    const res = await Axios.post('/register',userData)
-    console.log(res)
-    
-    if(res.status!==422){
-      toast.success("Data successfully added",{
+    try {
+      const res = await Axios.post('/register',userData)
+      console.log(res)
+      
+        toast.success("Data successfully added",{
+          position:"top-center"
+        })
+        setUserData({...userData,fname:"",email:"",mobile:"",password:"",cpassword:""})
+    } catch (error) {
+      toast.error("Data not added",{
         position:"top-center"
       })
-      setUserData({...userData,fname:"",email:"",mobile:"",password:"",cpassword:""})
+      console.log(error.message)
     }
+   
   }
   return (
     <section>
